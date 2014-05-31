@@ -21,6 +21,7 @@
 		3B3CFD75193A5EF20058AE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3CFD57193A5EF20058AE9B /* UIKit.framework */; };
 		3B3CFD7D193A5EF20058AE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CFD7B193A5EF20058AE9B /* InfoPlist.strings */; };
 		3B3CFD7F193A5EF20058AE9B /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFD7E193A5EF20058AE9B /* TestGitTests.m */; };
+		3B3CFD8A193A6AB80058AE9B /* TGBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFD89193A6AB80058AE9B /* TGBigViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3B3CFD7A193A5EF20058AE9B /* TestGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGitTests-Info.plist"; sourceTree = "<group>"; };
 		3B3CFD7C193A5EF20058AE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B3CFD7E193A5EF20058AE9B /* TestGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitTests.m; sourceTree = "<group>"; };
+		3B3CFD88193A6AB80058AE9B /* TGBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBigViewController.h; sourceTree = "<group>"; };
+		3B3CFD89193A6AB80058AE9B /* TGBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBigViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		3B3CFD59193A5EF20058AE9B /* TestGit */ = {
 			isa = PBXGroup;
 			children = (
+				3B3CFD88193A6AB80058AE9B /* TGBigViewController.h */,
+				3B3CFD89193A6AB80058AE9B /* TGBigViewController.m */,
 				3B3CFD62193A5EF20058AE9B /* TGAppDelegate.h */,
 				3B3CFD63193A5EF20058AE9B /* TGAppDelegate.m */,
 				3B3CFD65193A5EF20058AE9B /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3CFD8A193A6AB80058AE9B /* TGBigViewController.m in Sources */,
 				3B3CFD6A193A5EF20058AE9B /* TGViewController.m in Sources */,
 				3B3CFD60193A5EF20058AE9B /* main.m in Sources */,
 				3B3CFD64193A5EF20058AE9B /* TGAppDelegate.m in Sources */,
