@@ -22,6 +22,7 @@
 		3B3CFD7D193A5EF20058AE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B3CFD7B193A5EF20058AE9B /* InfoPlist.strings */; };
 		3B3CFD7F193A5EF20058AE9B /* TestGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFD7E193A5EF20058AE9B /* TestGitTests.m */; };
 		3B3CFD8A193A6AB80058AE9B /* TGBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFD89193A6AB80058AE9B /* TGBigViewController.m */; };
+		3B3CFD8D193A6ADA0058AE9B /* TGSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3CFD8C193A6ADA0058AE9B /* TGSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		3B3CFD7E193A5EF20058AE9B /* TestGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitTests.m; sourceTree = "<group>"; };
 		3B3CFD88193A6AB80058AE9B /* TGBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGBigViewController.h; sourceTree = "<group>"; };
 		3B3CFD89193A6AB80058AE9B /* TGBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGBigViewController.m; sourceTree = "<group>"; };
+		3B3CFD8B193A6ADA0058AE9B /* TGSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSecondViewController.h; sourceTree = "<group>"; };
+		3B3CFD8C193A6ADA0058AE9B /* TGSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				3B3CFD88193A6AB80058AE9B /* TGBigViewController.h */,
 				3B3CFD89193A6AB80058AE9B /* TGBigViewController.m */,
+				3B3CFD8B193A6ADA0058AE9B /* TGSecondViewController.h */,
+				3B3CFD8C193A6ADA0058AE9B /* TGSecondViewController.m */,
 				3B3CFD62193A5EF20058AE9B /* TGAppDelegate.h */,
 				3B3CFD63193A5EF20058AE9B /* TGAppDelegate.m */,
 				3B3CFD65193A5EF20058AE9B /* Main.storyboard */,
@@ -259,6 +264,7 @@
 				3B3CFD6A193A5EF20058AE9B /* TGViewController.m in Sources */,
 				3B3CFD60193A5EF20058AE9B /* main.m in Sources */,
 				3B3CFD64193A5EF20058AE9B /* TGAppDelegate.m in Sources */,
+				3B3CFD8D193A6ADA0058AE9B /* TGSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
